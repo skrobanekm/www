@@ -32,3 +32,16 @@ p {
 main ul {
     text-align: left;
 }
+
+.otazka {
+    padding: 1em;
+    font-size: 1.2em;
+    margin: 1em 0;
+    background-color: #abf;
+}
+
+.odpoved {
+    border-left: 10px solid #abf;
+    padding-left: 20px;
+    
+}

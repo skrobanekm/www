@@ -50,8 +50,10 @@
             <h2>WWW - otázky a odpovědi</h2>
             <div class="otazka">1. Jakou roli plní webový server? Uveďte příklady webových serverů.</div>
             <div class="odpoved">
-                <p>Server je <b>bezobslužný program</b>, který přijímá a obsluhuje požadavky klientů. Webový server je připojen
-                    k počítačové síti a přijímá požadavky v souladu s protokolem <b>HTTP</b> (<i>HTTP Request</i>). Tyto požadavky
+                <p>Server je <b>bezobslužný program</b>, který přijímá a obsluhuje požadavky klientů. Webový server je
+                    připojen
+                    k počítačové síti a přijímá požadavky v souladu s protokolem <b>HTTP</b> (<i>HTTP Request</i>). Tyto
+                    požadavky
                     vyřizuje a počítači, který požadavek vznesl, vrací odpověď.
                 </p>
                 <h4>Příklady webových serverů</h4>
@@ -62,14 +64,36 @@
                 </ul>
             </div>
 
-            <div class="otazka">2.</div>
+            <div class="otazka">2. Jak se nazývá program označovaný jakowebový klient? Co je jeho úkolem? Vyjmenujte
+                nejpoužívanější webové klienty.</div>
+            <div class="odpoved">
+                <p>
+                    Klient (browser, prohlížeč) je program, který komunikuje s uživatelem a na základě jeho pokynů se
+                    obrací na jednotlivé
+                    servery, získává od nich data a zobrazuje je.
+                </p>
+                <h3>Příklady webových klientů</h3>
+                <ul>
+                    <li>Opera</li>
+                    <li>Google Chrome</li>
+                    <li>Safari</li>
+                    <li>Microsoft Edge</li>
+                    <li>Mozila Firefox</li>
+                </ul>
+            </div>
+
+            <div class="otazka">3. Jak probíhá komunikace mezi webovým klientem a webovým serverem?</div>
             <div class="odpoved"></div>
 
-            <div class="otazka">3.</div>
-            <div class="odpoved"></div>
-
-            <div class="otazka">4.</div>
-            <div class="odpoved"></div>
+            <div class="otazka">4. Co je HTTP?</div>
+            <div class="odpoved">
+                <p>
+                    HTTP (HyperText Transfer Protocol) je jednoduchý aplikační protokol s komunikací charakteru
+                    požadavek – odpověď. Žádosti mají formu jednoduchých příkazů a mohou být upřesňovány pomocí různých
+                    parametrů, tzv. hlaviček.
+                    Odpovědi mají číselný charakter a nejčastěji obsahují i WWW stránku, kterou klient požadoval.
+                </p>
+            </div>
 
             <div class="otazka">5. Vypište do tabulky stavové kódy HTTP.</div>
             <div class="odpoved">
@@ -98,45 +122,72 @@
                         <td>5xx</td>
                         <td>interní chyby serveru</td>
                     </tr>
-                    
+
                 </table>
             </div>
 
-            <div class="otazka">6.</div>
+            <div class="otazka">6. Proč se stále častěji využívá protokol HTTPS?</div>
             <div class="odpoved"></div>
 
-            <div class="otazka">7.</div>
+            <div class="otazka">7. Vysvětlete zkratku URLa připojte pět různých příkladů URL odkazů.</div>
             <div class="odpoved"></div>
 
-            <div class="otazka">8.</div>
+            <div class="otazka">8. Co jsoua k čemu sloužítzv. cookies?Připojte obrázekukazující uložená cookies k
+                některé internetové stránce.</div>
             <div class="odpoved"></div>
 
-            <div class="otazka">9.Vypište přehledně jednotlivé fáze fungování 
+            <div class="otazka">9.Vypište přehledně jednotlivé fáze fungování
                 internetových vyhledávačů.</div>
             <div class="odpoved">
                 <ol>
-                    <li>Prohledání webových stránek. Pro prohledání webových stránek má internetový vyhledávač automatický program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který prochází celý webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst (odkazů), jejichž obsah si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu, aby se na ni již podruhé nevracel. Z obsahu stažené stránky vybere seznam všech obsažených odkazů a opět všechny odkazy navštíví. Cyklus návštěvy, sesbírání odkazů a dalších návštěv se stále opakuje. Robot se na navštívené stránky vrací v pravidelných intervalech, aby zjistil, zda se na stránce neobjevily nějaké nové informace. Z principu práce vyhledávače vyplývá, že nikdy nemá úplně aktuální informace, ale prezentuje je se zpožděním.
+                    <li>Prohledání webových stránek. Pro prohledání webových stránek má internetový vyhledávač
+                        automatický program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který
+                        prochází celý webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst
+                        (odkazů), jejichž obsah si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu,
+                        aby se na ni již podruhé nevracel. Z obsahu stažené stránky vybere seznam všech obsažených
+                        odkazů a opět všechny odkazy navštíví. Cyklus návštěvy, sesbírání odkazů a dalších návštěv se
+                        stále opakuje. Robot se na navštívené stránky vrací v pravidelných intervalech, aby zjistil, zda
+                        se na stránce neobjevily nějaké nové informace. Z principu práce vyhledávače vyplývá, že nikdy
+                        nemá úplně aktuální informace, ale prezentuje je se zpožděním.
                     </li>
-                    <li>Indexování. Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby bylo možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň je nutné vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou hodnotou (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu). Pro výpočet relevance se používají nejrůznější algoritmy, které jsou založeny na nejrůznějších znacích stránek a různých úhlech analýzy jejich obsahu:
+                    <li>Indexování. Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby
+                        bylo možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň
+                        je nutné vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou
+                        hodnotou (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu). Pro výpočet relevance se
+                        používají nejrůznější algoritmy, které jsou založeny na nejrůznějších znacích stránek a různých
+                        úhlech analýzy jejich obsahu:
                         <ul>
-                            <li>Váha slov. Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu. Váha slov se zvyšuje, je-li slovo v titulku stránky, nadpisu nebo blíže k začátku stránky, případně se na stránce opakuje. Váhu slov lze zneužít vkládáním atraktivních slov do obsahu stránky bez ohledu na její skutečný obsah nebo prostým opakováním slov. Vyhledávač se brání penalizací (snížením kvality) podezřelých stránek.
+                            <li>Váha slov. Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu. Váha
+                                slov se zvyšuje, je-li slovo v titulku stránky, nadpisu nebo blíže k začátku stránky,
+                                případně se na stránce opakuje. Váhu slov lze zneužít vkládáním atraktivních slov do
+                                obsahu stránky bez ohledu na její skutečný obsah nebo prostým opakováním slov.
+                                Vyhledávač se brání penalizací (snížením kvality) podezřelých stránek.
                             </li>
-                            <li>Atraktivita stránky. Stránka má vyšší hodnocení, když na ni odkazuje více jiných stránek, protože zřejmě obsahuje zajímavé informace. Atraktivitu lze zneužít vytvářením falešných stránek, které odkazují na stránku, která má získat vyšší hodnocení. Vyhledávač se brání sledováním podezřelého náhlého hromadění odkazů.
+                            <li>Atraktivita stránky. Stránka má vyšší hodnocení, když na ni odkazuje více jiných
+                                stránek, protože zřejmě obsahuje zajímavé informace. Atraktivitu lze zneužít vytvářením
+                                falešných stránek, které odkazují na stránku, která má získat vyšší hodnocení.
+                                Vyhledávač se brání sledováním podezřelého náhlého hromadění odkazů.
                             </li>
-                            <li>Serióznost webu. Webové servery, které obsahují velké množství kvalitních stránek, jsou při výpočtu váhy zvýhodněny. Seznam se může udržovat i ručními zásahy.
+                            <li>Serióznost webu. Webové servery, které obsahují velké množství kvalitních stránek, jsou
+                                při výpočtu váhy zvýhodněny. Seznam se může udržovat i ručními zásahy.
                             </li>
-                            <li>Sponzorované odkazy. Váha odkazu se zvyšuje zaplacením poplatku. Seriózní vyhledávače se této praxi vyhýbají nebo zřetelně oddělují výsledky zobrazené na základě komerčního zvýhodnění. Tento způsob je jedním z možných zdrojů příjmů vyhledávače.
+                            <li>Sponzorované odkazy. Váha odkazu se zvyšuje zaplacením poplatku. Seriózní vyhledávače se
+                                této praxi vyhýbají nebo zřetelně oddělují výsledky zobrazené na základě komerčního
+                                zvýhodnění. Tento způsob je jedním z možných zdrojů příjmů vyhledávače.
                             </li>
-                            <li>Technická kvalita. Váha odkazu se zvyšuje, pokud jsou stránky správně sestaveny a vyhovují webovým standardům.
+                            <li>Technická kvalita. Váha odkazu se zvyšuje, pokud jsou stránky správně sestaveny a
+                                vyhovují webovým standardům.
                             </li>
                         </ul>
                     </li>
-                    <li>Vyhledávání. Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel získá po zadání hledaných slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší přehlednost se zobrazuje kromě odkazu ještě titulek stránky, a okolí nalezených slov.
+                    <li>Vyhledávání. Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel získá
+                        po zadání hledaných slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší
+                        přehlednost se zobrazuje kromě odkazu ještě titulek stránky, a okolí nalezených slov.
                     </li>
                 </ol>
             </div>
 
-            <div class="otazka">10.</div>
+            <div class="otazka">10. Vysvětlete zkratku HTMLa pojem hypertext.</div>
             <div class="odpoved"></div>
 
 
